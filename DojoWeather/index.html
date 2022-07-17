@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>Dojo Weather</h1>
+        <p class="cities" onclick="displayAlert()">Burbank</p>
+        <p class="cities" onclick="displayAlert()">Chicago</p>
+        <p class="cities" onclick="displayAlert()">Dallas</p>
+    </div>
+    <div class="container">
+        <div class="top-head">
+            <h2>San Hose</h2>
+            <p>show temperatures in </p>
+            <select>
+                <option>Celsius</option>
+                <option>Farenheit</option>
+                <option>Kelvin</option>
+            </select>
+        </div>
+        <div class="mid">
+            <div class="weather">
+                <h2 class="day">Today</h2>
+                <img src="images/some_rain.png" class="circle" alt="rain">
+                <p>some rain</p>
+                <div class="temp">
+                    <p class="red">24°</p>
+                    <p class="blue">18°</p>
+                </div>
+            </div>
+            <div class="weather">
+                <h2 class="day">Tomorrow</h2>
+                <img src="images/some_sun.png" class="circle" alt="rain">
+                <p>some sun</p>
+                <div class="temp">
+                    <p class="red">27°</p>
+                    <p class="blue">19°</p>
+                </div>
+            </div>
+            <div class="weather">
+                <h2 class="day">Friday</h2>
+                <img src="images/some_clouds.png" class="circle" alt="rain">
+                <p>some clouds</p>
+                <div class="temp">
+                    <p class="red">21°</p>
+                    <p class="blue">16°</p>
+                </div>
+            </div>
+            <div class="weather">
+                <h2 class="day">Saturday</h2>
+                <img src="images/some_sun.png" class="circle" alt="rain">
+                <p>some sun</p>
+                <div class="temp">
+                    <p class="red">26°</p>
+                    <p class="blue">21°</p>
+                </div>
+            </div>
+        </div>
+        <div id="foot">
+            <div id="det">
+                <img src="images/cookie.png" alt="rain">
+                <h3>Stop! Cookie Time</h3>
+                <p class="cookie">We use cookies (sadly not the edible ones) to personalize content and ads,
+                to provide social media features and to analyse your traffic. <a href="#">Read More...</a></p>
+                <button onclick="pleaseRemove()">I Accept</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
