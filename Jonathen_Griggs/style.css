@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-main {
+    border: 1px ridge black;
+    margin: 0 auto;
+    height: 125px;
+    color: black;
+}
+
+.top-nav {
+    border: 3px solid black;
+    background-color: white;
+    display: flex;
+    align-content: center;
+    height: 75px;
+    justify-content: space-evenly;
+}
+
+.live {
+    align-self: center;
+}
+
+.scores {
+    padding: 20px;
+    align-self: center;
+}
+
+.bottom-nav {
+    color: white;
+    border: 3px solid black;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.sport-bar {
+    padding: 20px;
+    align-self: center;
+}
+
+.pic {
+    display: flex;
+    align-items: center;
+    padding-left: 200px;;
+}
+
+.nav-image {
+    height: 30px;
+    padding: 0px 10px;
+    padding-bottom: 10px;
+}
+
+.red-slant {
+    align-items: center;
+    text-align:center;
+    border: none;
+    background-color: red;
+    height: 40px;
+    width: 125px;
+    transform: skew(-14deg)
+}
+
+.container {
+    display: flex;
+    background-color: #dddddd;
+    border: 3px solid black;
+    margin: 0 auto;
+    height: 1000px;
+}
+
+.col-left {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 20%;
+    margin: 0 100px; 
+}
+
+.content, .head, .list, .items{
+    margin: 10px;
+}
+
+.head {
+    font-size: large;
+    border-bottom: 2px outset black;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-box {
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 315px;
+    width: 280px;
+    margin: 30px;
+}
+
+.mid-box {
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 130px;
+    width: 280px;
+    margin: 30px;
+}
+
+.custom, .btn {
+    margin: 10px;
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-1 {
+    box-shadow: 5px 3px 1px black;
+    background-color: dodgerblue;
+    color: white;
+    font-size: large;
+    height: 40px;
+    width: 100px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.btn-2 {
+    box-shadow: 5px 3px 1px black;
+    background-color: white;
+    color: black;
+    font-size: large;
+    height: 40px;
+    width: 100px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+#bottom-box {
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 170px;
+    width: 280px;
+    margin: 30px;
+}
+
+.sub {
+    box-shadow: 5px 3px 1px black;
+    background-color: #ffe599;
+    color: white;
+    font-size: large;
+    height: 40px;
+    width: 100px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.winners {
+    height: 175px;
+}
+
+.col-right {
+    border-radius: 12%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    height: 740px;
+    width: 55%;
+}
+
+.only {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.red {
+    color: red;
+}
+
+.lead {
+    padding-left: 30px;
+}
+
+.dot {
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border: solid red;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.score-box {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 70px;
+    height: 450px;
+}
+
+.col-ninjas, .col-vs, .col-pirates {
+    height: 738px;
+    align-items: flex-start;
+    margin-top: 50px;
+    text-align: center;
+    padding: 0px 50px;
+}
+
+.team-1 {
+    color: #119b9d;
+}
+
+.team-2 {
+    color: #d21034;
+}
+
+.record {
+    color: darkgray;
+}
+
+.det {
+    padding: 30px;
+}
+
+.col-vs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.match-up {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+#points, #morepoints {
+    cursor: pointer;
+}

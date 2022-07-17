@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Sports Center</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-main">
+        <div class="top-nav">
+            <h1 class="live">Live Scores</h1>
+            <div class="scores">
+                <p>SJC Ninjas - 314</p>
+                <p>NS Pirates - 159</p>
+            </div>
+            <div class="scores">
+                <p>CHI Samuri - 0</p>
+                <p>TUL Wizards - 0</p>
+            </div>
+            <div class="scores">
+                <p>Bos Hackers - 13</p>
+                <p>TYO Youkai - 37</p>
+            </div>
+            <div class="scores">
+                <p>BOI Knights - 5</p>
+                <p>SEA Sea Lions - 11</p>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <h1 class="red-slant">DSNN</h1>
+            <div class="sport-bar">
+                <p>Football</p>
+            </div>
+            <div class="sport-bar">
+                <p>Basketball</p>
+            </div>
+            <div class="sport-bar">
+                <p>Baseball</p>
+            </div>
+            <div class="sport-bar">
+                <p>Soccer</p>
+            </div>
+            <div class="sport-bar">
+                <p>More...</p>
+            </div>
+            <div class="pic">
+                <img src="images/search-light.png" class="nav-image" alt="nav pic">
+                <img src="images/hamburger-light.png" class="nav-image" alt="nav pic">
+                <img src="images/user-circle-light.png" class="nav-image" alt="nav pic">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-left">
+            <div class="top-box">
+                <div class="head">
+                    <h2>Top Stories</h2>
+                </div>
+                <div class="content">
+                    <div class="list">
+                        <p class="items">Ninjas up big in 5th</p>
+                        <p class="items">Best sport cities</p>
+                        <p class="items">Choi joins Hall of Fame</p>
+                        <p class="items">Tournament underway</p>
+                        <p class="items">Samuri at Wizards...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mid-box">
+                <div>
+                    <h2 class="custom">Customize your DSNN</h2>
+                </div>
+                <div class="sign">
+                    <button class="btn-1" onclick="solid()">Sign In</button>
+                    <button class="btn-2" onclick="liquid()">Sign Out</button>
+                </div>
+            </div>
+            <div id="bottom-box">
+                <h2>Never miss a play</h2>
+                    <div>
+                        <button class="sub" onclick="removeBox()">Subscribe</button>
+                    </div>
+            </div>
+        </div>
+        <div class="col-right">
+            <div class="only">
+                <div class="dot"></div>
+                <div class="red">
+                    <h1>Live</h1>
+                </div>
+                <div class="lead">
+                    <h1>Ninjas Leading Pirates</h1>
+                </div>
+            </div>
+            <div class="score-box">
+                <div class="col-ninjas">
+                    <img src="images/sjc-ninjas.png" class="winners" alt="teams">
+                    <p class="city">San Jose</p>
+                    <h1 class="team-1">Ninjas</h1>
+                    <p class="record">(10W - 3L)</p>
+                    <h1 id="points" onclick="addNinja()">314</h1>
+                </div>
+                <div class="col-vs">
+                    <h1 class="match-up">VS</h1>
+                    <p class="time-remains">0:13 remaining</p>
+                    <p class="period">5th period</p>
+                </div>
+                <div class="col-pirates"><img src="images/ns-pirates.png" class="winners" alt="teams">
+                    <p class="city">Nova Scotia</p>
+                    <h1 class="team-2">Pirates</h1>
+                    <p class="record">(12W - 2L)</p>
+                    <h1 id="morepoints" onclick="addPirate()">159</h1>
+                </div>
+            </div>
+            <div class="details">
+                <p class="det">A conservative match between the two top-performing sides in the Central
+                    League Division with a number 1 seed at stake... <a href="#">get live updates</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
